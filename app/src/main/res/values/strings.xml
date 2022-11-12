@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NumberFact</string>
+    <string name="hint_search_query">search number</string>
+</resources>

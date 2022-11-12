@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "176511255896",
+    "project_id": "numberfact-6c3c2",
+    "storage_bucket": "numberfact-6c3c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176511255896:android:2855b61276a3aac94c512d",
+        "android_client_info": {
+          "package_name": "com.codewith3b.numberfact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176511255896-90s1ikgkpg0nj4om64ci1muvemirthc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2O38aOkepMBAlSKO0hhWMdIz09XoV69E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176511255896-90s1ikgkpg0nj4om64ci1muvemirthc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
