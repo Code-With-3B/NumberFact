@@ -17,9 +17,9 @@
         android:usesCleartextTraffic="true"
         >
         <activity
+            android:hardwareAccelerated="true"
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.NumberFact">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

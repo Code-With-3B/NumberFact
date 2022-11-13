@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">NumberFact</string>
     <string name="hint_search_query">search number</string>
+    <string name="ad_id_banner_top">ca-app-pub-7381714812897072/2108234183</string>
+    <string name="ad_id_banner_bottom">ca-app-pub-7381714812897072/4021217122</string>
 </resources>

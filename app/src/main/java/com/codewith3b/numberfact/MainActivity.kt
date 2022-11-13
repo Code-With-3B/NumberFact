@@ -21,7 +21,6 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.ui.viewinterop.AndroidView
 import com.codewith3b.numberfact.ui.theme.NumberFactTheme
 import com.codewith3b.numberfact.ui.theme.SearchTextFieldColor
 import com.codewith3b.numberfact.view.AdView
@@ -49,7 +48,7 @@ fun App(numberViewModel: NumberViewModel) {
             backgroundColor = Color.Black,
             scaffoldState = scaffoldState,
             topBar = {
-
+               AdView(1)
             },
             content = {
 
@@ -75,7 +74,10 @@ fun App(numberViewModel: NumberViewModel) {
                         onClick = { changeRandomFact(numberViewModel) },
                         colors = ButtonDefaults.outlinedButtonColors(backgroundColor = Color.DarkGray),
                         border = BorderStroke(0.5.dp, Color.Yellow),
-                        modifier = Modifier.background(color = Color.Transparent, shape = RoundedCornerShape(40))
+                        modifier = Modifier.background(
+                            color = Color.Transparent,
+                            shape = RoundedCornerShape(40)
+                        )
                     ) {
                         Text(
                             text = "Show Random Fact", color = Color.White
@@ -83,8 +85,11 @@ fun App(numberViewModel: NumberViewModel) {
                     }
                 }
 
-            })
-        Log.e("IN", "IN")
+            },
+            bottomBar = {
+                AdView(2)
+            }
+        )
     }
 }
 
